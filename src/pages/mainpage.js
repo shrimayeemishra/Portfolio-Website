@@ -14,6 +14,7 @@ import ProjectCard from "../Components/projectcard";
 import ProjectCardLink from "../Components/projectcardwithlink";
 import ContactCard from "../Components/contactcard";
 import banner from "../assets/banner.png";
+import portfolioproject from "../assets/portfolioproject.png";
 
 const MainPage = () => {
   const { hash } = useLocation();
@@ -39,25 +40,33 @@ const MainPage = () => {
           <h1 className="font-bold text-3xl my-6 text-[#10719A] text-center md:ml-2 md:text-start md:text-4xl">
             About
           </h1>
-          <p className="text-justify px-2 py-2 md:w-1/2 md:text-xl">
-            Hi there! I'm Shrimayee, a Computer Engineering student at SNDT with
-            a zest for creativity. When I'm not immersed in tech projects, you
-            can find me exploring my artistic side in various ways, including
-            painting, crocheting, and writing write-ups. I also have a deep
-            passion for music—whether I'm playing the piano or singing, I'm
-            always up for a jamming session.
-          </p>
-          <p className="text-justify px-2 py-2 md:w-1/2 md:text-xl">
-            In addition to my hobbies, I volunteer with Art of Living, where
-            I've had the fulfilling opportunity to contribute to various social
-            projects. This experience has been a significant part of my personal
-            growth, helping my personality truly blossom.
-          </p>
-          <p className="text-justify px-2 py-2 md:w-1/2 md:text-xl">
-            I’d love to connect and share my passions with you. Feel free to
-            drop me a text to chat about creative pursuits, dive into technical
-            discussions, or engage in some intellectual conversations!
-          </p>
+          <div className="aboutparaandimage flex flex-col md:flex-row">
+            <div className="aboutparagraph md:w-1/2">
+              <p className="text-justify px-2 py-2 md:text-xl">
+                Hi there! I'm Shrimayee, a Computer Engineering student at SNDT
+                with a zest for creativity. When I'm not immersed in tech
+                projects, you can find me exploring my artistic side in various
+                ways, including painting, crocheting, and writing write-ups. I
+                also have a deep passion for music—whether I'm playing the piano
+                or singing, I'm always up for a jamming session.
+              </p>
+              <p className="text-justify px-2 py-2 md:text-xl">
+                In addition to my hobbies, I volunteer with Art of Living, where
+                I've had the fulfilling opportunity to contribute to various
+                social projects. This experience has been a significant part of
+                my personal growth, helping my personality truly blossom.
+              </p>
+              <p className="text-justify px-2 py-2 md:text-xl">
+                I’d love to connect and share my passions with you. Feel free to
+                drop me a text to chat about creative pursuits, dive into
+                technical discussions, or engage in some intellectual
+                conversations!
+              </p>
+            </div>
+            <div className="aboutimage md:w-1/2 md:my-auto md:mx-auto">
+              <img src={figma} />
+            </div>
+          </div>
         </section>
 
         <section id="education" className="education font-serif ml-6 mr-4">
@@ -68,7 +77,7 @@ const MainPage = () => {
 
         <section id="skills" className="skills font-serif ml-6 mr-4">
           <h1 className="font-bold text-3xl my-6 text-[#10719A] text-center md:ml-2 md:text-start md:text-4xl">
-            Skills familiar with:
+            Technical skills familiar with:
           </h1>
           <div>
             <div className="icongroup flex flex-row justify-around">
@@ -92,7 +101,7 @@ const MainPage = () => {
           </h1>
           <div className="projecttiles flex flex-row flex-wrap justify-around">
             <ProjectCardLink
-              img={figma}
+              img={portfolioproject}
               title="Portfolio Website"
               techstack="ReactJS, TailwindCSS, Figma"
               paragraph="My portfolio website features interactive elements, and it reflects my technical skills and design capabilities. 
@@ -101,9 +110,9 @@ const MainPage = () => {
               link="www.google.com"
             />
             <ProjectCardLink
-              img={figma}
+              img={portfolioproject}
               title="Chakde Chores(Academic Minor Project)"
-              techstack="MongoDB, ExpressJS, ReactJS, NextJS, TailwindCSS, Figma"
+              techstack="MERN stack, Figma"
               paragraph="Chakde Chores is a user-friendly website designed to simplify finding help for household chores. 
               The platform connects users with a range of helpers for both long-term and short-term needs, 
               making it easier to manage and delegate tasks around the house. With a focus on a seamless and intuitive interface, 
@@ -113,24 +122,21 @@ const MainPage = () => {
             />
             <ProjectCard
               img={figma}
-              title="Single Axis Solar Tracking System"
+              title="Solar Tracking System(Academic Major Project)"
               techstack="Arduino, Servo motor, Light dependent resistor"
-              paragraph="Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-              sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-              Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
-              ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit
-              in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
-              sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-              mollit anim id est laborum."
+              paragraph="Solar tracking system that dynamically adjusts
+              the orientation of a solar panel to align with the sun’s most direct angle.
+              This system enhances solar energy efficiency by continuously positioning the panel towards
+              the optimal sunlight exposure, thereby maximizing energy capture and overall performance."
             />
             <ProjectCard
               img={figma}
-              title="Plant Monitoring System"
+              title="Plant Monitoring System(Academic Major Project)"
               techstack="IoT, Blynk, NodeMCU"
-              paragraph="Plant monitoring system developed an IoT-based plant monitoring system that offers
+              paragraph="Plant monitoring system is an IoT-based system that offers
               real-time data on environmental conditions like soil moisture and temperature. The system features app
               interaction and notifications, allowing users to operate the system and receive immediate alerts
-              about critical changes in plant growth.This setup ensures users stay informed and can take
+              about critical changes in plant growth. This setup ensures users stay informed and can take
               timely action to maintain optimal plant health."
             />
           </div>

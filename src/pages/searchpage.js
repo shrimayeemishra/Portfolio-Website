@@ -18,10 +18,10 @@ const SearchPage = () => {
 
       <div className="flex flex-col">
         <p
-          className="font-bold font-serif mt-5 mx-5 text-base text-[#106396]
-          md:text-lg
-          lg:text-xl
-          xl:mx-12"
+          className="font-bold font-serif mt-5 ml-6 text-lg text-[#106396]
+          md:text-xl md:mx-auto
+          lg:text-2xl lg:mx-16
+          xl:mx-32"
         >
           Each link will give you more details—click to explore all !
         </p>
