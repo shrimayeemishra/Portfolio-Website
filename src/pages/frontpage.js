@@ -12,12 +12,12 @@ import gmail from "../assets/gmail.png";
 
 const FrontPage = () => {
   return (
-    <div className="homepage h-screen bg-[#D3F4FF] flex flex-col">
+    <div className="homepage h-screen bg-[#D3F4FF] flex flex-col" id="homepage">
       <div
         className="mx-auto w-1/2 mt-[25%] md:mt-[10%] xl:mx-[33%] xl:mt-[7%]"
         id="logo"
       >
-        <a href="#logo">
+        <a href="#homepage">
           <img src={logo} />
         </a>
       </div>
@@ -31,42 +31,49 @@ const FrontPage = () => {
           <a
             className="flex justify-center items-center"
             href="mailto:shrimayeemishra934@gmail.com"
+            target="_blank"
           >
             <FrontPageButton img={gmail} />
           </a>
           <a
             className="flex justify-center items-center"
             href="https://leetcode.com/u/shrimayeemishra/"
+            target="_blank"
           >
             <FrontPageButton img={leetcode} />
           </a>
           <a
             className="flex justify-center items-center"
             href="https://medium.com/@shrimayeemishra"
+            target="_blank"
           >
             <FrontPageButton img={medium} />
           </a>
           <a
             className="flex justify-center items-center"
             href="https://www.linkedin.com/in/shrimayee-mishra"
+            target="_blank"
           >
             <FrontPageButton img={linkedin} />
           </a>
           <a
             className="flex justify-center items-center"
             href="https://github.com/shrimayeemishra"
+            target="_blank"
           >
             <FrontPageButton img={github} />
           </a>
           <a
             className="flex justify-center items-center"
             href="https://www.hackerrank.com/profile/shrimayeemishra1"
+            target="_blank"
           >
             <FrontPageButton img={hackerrank} />
           </a>
           <a
             className="flex justify-center items-center"
             href="https://www.instagram.com/_artifying/"
+            target="_blank"
           >
             <FrontPageButton img={instagram} />
           </a>

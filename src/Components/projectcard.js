@@ -11,7 +11,7 @@ const ProjectCard = ({ img, title, techstack, paragraph }) => {
           Project Title: {title}
         </p>
         <p className="font-semibold font-serif ml-4 mt-1 text-base">
-          Tech Stack: {techstack}
+          Hardware Component: {techstack}
         </p>
         <p className="font-medium font-serif ml-4 mt-1 mb-3 text-base text-justify px-4 pl-0">
           {paragraph}

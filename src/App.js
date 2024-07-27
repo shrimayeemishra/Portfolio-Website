@@ -11,9 +11,9 @@ function App() {
     <Router>
       <Routes>
         {" "}
-        <Route path="/" element={<FrontPage />} />{" "}
-        <Route path="/main" element={<MainPage />} />
-        <Route path="/search" element={<SearchPage />} />
+        <Route path="/" element={<FrontPage />} component={FrontPage} />{" "}
+        <Route path="/main" element={<MainPage />} component={MainPage} />
+        <Route path="/search" element={<SearchPage />} component={SearchPage} />
       </Routes>
     </Router>
   );

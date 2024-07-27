@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import logo from "../assets/ShrimayeeMishraLogo.png";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -12,7 +13,9 @@ const Navbar = () => {
     <div className="searchpage bg-[#D3F4FF] h-full flex flex-col justify-start p-4">
       <div className="firstline flex items-center justify-between">
         <div className="w-1/4 md:w-1/12">
-          <img src={logo} alt="Shrimayee Mishra Logo" className="mx-auto" />
+          <Link to="/">
+            <img src={logo} alt="Shrimayee Mishra Logo" className="mx-auto" />
+          </Link>
         </div>
 
         <button
