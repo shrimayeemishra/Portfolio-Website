@@ -65,7 +65,7 @@ const MainPage = () => {
                 conversations!
               </p>
             </div>
-            <div className="aboutimage md:w-2/5 md:my-auto md:mx-auto lg:w-1/5">
+            <div className="aboutimage md:w-2/5 md:my-auto md:mx-auto lg:w-3/5">
               <img src={Shrimayee} />
             </div>
           </div>
