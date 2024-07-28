@@ -16,6 +16,7 @@ import ContactCard from "../Components/contactcard";
 import banner from "../assets/banner.png";
 import portfolioproject from "../assets/portfolioproject.png";
 import Shrimayee from "../assets/Shrimayee.jpg";
+import education from "../assets/education.png";
 
 const MainPage = () => {
   const { hash } = useLocation();
@@ -74,6 +75,7 @@ const MainPage = () => {
           <h1 className="font-bold text-3xl my-6 text-[#10719A] text-center md:ml-2 md:text-start md:text-4xl">
             Education
           </h1>
+          <img src={education} className="lg:mx-auto" />
         </section>
 
         <section id="skills" className="skills font-serif ml-6 mr-4">

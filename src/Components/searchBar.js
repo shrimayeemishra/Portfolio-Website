@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import searchicon from "../assets/searchicon.png";
 import arrowicon from "../assets/arrowicon.png";
+import { motion } from "framer-motion";
 
 const SearchBar = () => {
   return (
@@ -14,7 +15,12 @@ const SearchBar = () => {
           </p>
         </div>
         <Link to="/search">
-          <img src={arrowicon} className="w-4 h-4 m-1 xl:w-6 xl:h-6" />
+          <motion.img
+            src={arrowicon}
+            className="w-4 h-4 m-1 xl:w-6 xl:h-6"
+            whileHover={{ scale: 1.1 }}
+            transition={{ type: "spring", stiffness: 300 }}
+          />
         </Link>
       </div>
     </>
