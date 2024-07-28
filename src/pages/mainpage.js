@@ -15,6 +15,7 @@ import ProjectCardLink from "../Components/projectcardwithlink";
 import ContactCard from "../Components/contactcard";
 import banner from "../assets/banner.png";
 import portfolioproject from "../assets/portfolioproject.png";
+import Shrimayee from "../assets/Shrimayee.jpg";
 
 const MainPage = () => {
   const { hash } = useLocation();
@@ -63,8 +64,8 @@ const MainPage = () => {
                 conversations!
               </p>
             </div>
-            <div className="aboutimage md:w-1/2 md:my-auto md:mx-auto">
-              <img src={figma} />
+            <div className="aboutimage md:w-2/5 md:my-auto md:mx-auto lg:w-1/5">
+              <img src={Shrimayee} />
             </div>
           </div>
         </section>
@@ -81,16 +82,16 @@ const MainPage = () => {
           </h1>
           <div>
             <div className="icongroup flex flex-row justify-around">
-              <SkillsButton img={cpp} />
-              <SkillsButton img={figma} />
-              <SkillsButton img={html} />
-              <SkillsButton img={css} />
+              <SkillsButton img={cpp} label="C++" />
+              <SkillsButton img={figma} label="Figma" />
+              <SkillsButton img={html} label="HTML" />
+              <SkillsButton img={css} label="CSS" />
             </div>
             <div className="icongroup flex flex-row justify-around">
-              <SkillsButton img={postgresql} />
-              <SkillsButton img={tailwind} />
-              <SkillsButton img={react} />
-              <SkillsButton img={git} />
+              <SkillsButton img={postgresql} label="SQL" />
+              <SkillsButton img={tailwind} label="TailwindCSS" />
+              <SkillsButton img={react} label="ReactJS" />
+              <SkillsButton img={git} label="Git" />
             </div>
           </div>
         </section>

@@ -27,13 +27,16 @@ const ContactCard = () => {
         </p>
 
         <div className="contactbuttons flex flex-row justify-center">
-          <a href="www.linkedin.com/in/">
+          <a
+            href="https://www.linkedin.com/in/shrimayee-mishra"
+            target="_blank"
+          >
             <ContactButton img={linkedin} />
           </a>
-          <a href="www.linkedin.com/in/">
+          <a href="mailto:shrimayeemishra934@gmail.com" target="_blank">
             <ContactButton img={gmail} />
           </a>
-          <a href="www.linkedin.com/in/">
+          <a href="https://x.com/Shrimayeemishra" target="_blank">
             <ContactButton img={X} />
           </a>
         </div>

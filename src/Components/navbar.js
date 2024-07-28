@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import logo from "../assets/ShrimayeeMishraLogo.png";
 import { Link } from "react-router-dom";
+import { motion } from "framer-motion";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -43,28 +44,55 @@ const Navbar = () => {
             isOpen ? "flex" : "hidden"
           }`}
         >
-          <a className="p-2" href="#about">
+          <motion.a
+            className="p-2"
+            href="#about"
+            whileHover={{ scale: 1.1 }}
+            transition={{ type: "spring", stiffness: 300 }}
+          >
             About
-          </a>
-          <a className="p-2" href="#education">
+          </motion.a>
+          <motion.a
+            className="p-2"
+            href="#education"
+            whileHover={{ scale: 1.1 }}
+            transition={{ type: "spring", stiffness: 300 }}
+          >
             Education
-          </a>
-          <a className="p-2" href="#skills">
+          </motion.a>
+          <motion.a
+            className="p-2"
+            href="#skills"
+            whileHover={{ scale: 1.1 }}
+            transition={{ type: "spring", stiffness: 300 }}
+          >
             Skills
-          </a>
-          <a className="p-2" href="#projects">
+          </motion.a>
+          <motion.a
+            className="p-2"
+            href="#projects"
+            whileHover={{ scale: 1.1 }}
+            transition={{ type: "spring", stiffness: 300 }}
+          >
             Projects
-          </a>
-          <a
+          </motion.a>
+          <motion.a
             className="p-2"
             href="https://drive.google.com/file/d/1mcZfHWJphx9WzVFrYvspSRl3mboMEMih/view?usp=sharing"
             target="_blank"
+            whileHover={{ scale: 1.1 }}
+            transition={{ type: "spring", stiffness: 300 }}
           >
             Resume
-          </a>
-          <a className="p-2" href="#contact">
+          </motion.a>
+          <motion.a
+            className="p-2"
+            href="#contact"
+            whileHover={{ scale: 1.1 }}
+            transition={{ type: "spring", stiffness: 300 }}
+          >
             Contact
-          </a>
+          </motion.a>
         </div>
       </div>
     </div>
