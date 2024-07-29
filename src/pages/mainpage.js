@@ -17,6 +17,9 @@ import banner from "../assets/banner.png";
 import portfolioproject from "../assets/portfolioproject.png";
 import Shrimayee from "../assets/Shrimayee.jpg";
 import education from "../assets/education.png";
+import solartracker from "../assets/solartrackingsystem.png";
+import gardeningsystem from "../assets/smartgardeningsystem.png";
+import servicehub from "../assets/servicehub.png";
 
 const MainPage = () => {
   const { hash } = useLocation();
@@ -42,7 +45,7 @@ const MainPage = () => {
           <h1 className="font-bold text-3xl my-6 text-[#10719A] text-center md:ml-2 md:text-start md:text-4xl">
             About
           </h1>
-          <div className="aboutparaandimage flex flex-col md:flex-row">
+          <div className="aboutparaandimage font-poppins flex flex-col md:flex-row">
             <div className="aboutparagraph md:w-1/2">
               <p className="text-justify px-2 py-2 md:text-xl">
                 Hi there! I'm Shrimayee, a Computer Engineering student at SNDT
@@ -113,8 +116,8 @@ const MainPage = () => {
               link="www.google.com"
             />
             <ProjectCardLink
-              img={portfolioproject}
-              title="Chakde Chores(Academic Minor Project)"
+              img={servicehub}
+              title="Chakde Chores (Academic Minor Project)"
               techstack="MERN stack, Figma"
               paragraph="Chakde Chores is a user-friendly website designed to simplify finding help for household chores. 
               The platform connects users with a range of helpers for both long-term and short-term needs, 
@@ -124,8 +127,8 @@ const MainPage = () => {
               link="www.google.com"
             />
             <ProjectCard
-              img={figma}
-              title="Solar Tracking System(Academic Major Project)"
+              img={solartracker}
+              title="Solar Tracking System (Academic Major Project)"
               techstack="Arduino, Servo motor, Light dependent resistor"
               paragraph="Solar tracking system that dynamically adjusts
               the orientation of a solar panel to align with the sun’s most direct angle.
@@ -133,10 +136,10 @@ const MainPage = () => {
               the optimal sunlight exposure, thereby maximizing energy capture and overall performance."
             />
             <ProjectCard
-              img={figma}
-              title="Plant Monitoring System(Academic Major Project)"
+              img={gardeningsystem}
+              title="Smart Gardening System (Academic Major Project)"
               techstack="IoT, Blynk, NodeMCU"
-              paragraph="Plant monitoring system is an IoT-based system that offers
+              paragraph="Smart Gardening System is an IoT-based system that offers
               real-time data on environmental conditions like soil moisture and temperature. The system features app
               interaction and notifications, allowing users to operate the system and receive immediate alerts
               about critical changes in plant growth. This setup ensures users stay informed and can take

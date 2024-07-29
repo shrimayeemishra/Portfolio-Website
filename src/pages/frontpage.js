@@ -12,7 +12,10 @@ import gmail from "../assets/gmail.png";
 
 const FrontPage = () => {
   return (
-    <div className="homepage h-screen bg-[#D3F4FF] flex flex-col" id="homepage">
+    <div
+      className="homepage font-poppins h-screen bg-[#D3F4FF] flex flex-col"
+      id="homepage"
+    >
       <div
         className="mx-auto w-1/2 mt-[25%] md:mt-[10%] xl:mx-[33%] xl:mt-[7%]"
         id="logo"

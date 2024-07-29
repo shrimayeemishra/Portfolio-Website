@@ -44,20 +44,26 @@ const ProjectCard = ({ img, title, techstack, paragraph }) => {
       transition={{ duration: 1 }}
       className="projectcard bg-[#D3F4FF] rounded-2xl border-[2px] border-[#106396] flex flex-col mb-4 text-[#106396] md:w-2/5"
     >
-      <div className="bg-[#d3f4ff] border-[1px] border-[#106396] rounded-lg mx-8 my-4">
+      <div className="bg-[#15358d] border-[1px] border-[#106396] rounded-lg mx-8 my-4">
         <img
           src={img}
           alt={`${title} thumbnail`}
-          className="p-2 w-1/2 mx-auto"
+          className="p-2 w-auto mx-auto"
         />
       </div>
-      <p className="font-bold font-serif ml-4 mt-3 text-xl">
-        Project Title: {title}
+      <p className="font-poppins font-medium text-[#000000] ml-4 mt-3 text-lg">
+        <span className="font-bold font-serif text-[#106396] text-xl">
+          Title:{" "}
+        </span>
+        {title}
       </p>
-      <p className="font-semibold font-serif ml-4 mt-1 text-lg">
-        Tech Stack: {techstack}
+      <p className="font-poppins font-medium text-[#000000] ml-4 mt-1 text-lg">
+        <span className="font-bold font-serif text-[#106396] text-xl">
+          Tech Stack:{" "}
+        </span>
+        {techstack}
       </p>
-      <p className="font-medium font-serif ml-4 mt-1 mb-3 text-lg text-justify px-4 pl-0">
+      <p className="font-medium font-poppins text-[#000000] ml-4 mt-1 mb-3 text-lg text-justify px-4 pl-0">
         {paragraph}
       </p>
     </motion.div>

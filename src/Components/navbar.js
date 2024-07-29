@@ -11,7 +11,7 @@ const Navbar = () => {
   };
 
   return (
-    <div className="searchpage bg-[#D3F4FF] h-full flex flex-col justify-start p-4">
+    <div className="searchpage bg-[#D3F4FF] font-poppins h-full flex flex-col justify-start p-4">
       <div className="firstline flex items-center justify-between">
         <div className="w-1/4 md:w-1/12">
           <Link to="/">
@@ -40,7 +40,7 @@ const Navbar = () => {
         </button>
 
         <div
-          className={`w-full mt-4 flex-col md:flex md:flex-row md:w-auto md:mt-0 justify-evenly font-serif text-[#106396] font-semibold text-lg space-y-2 md:space-y-0 ${
+          className={`w-full mt-4 flex-col md:flex md:flex-row md:w-auto md:mt-0 justify-evenly text-[#106396] font-semibold text-lg space-y-2 md:space-y-0 ${
             isOpen ? "flex" : "hidden"
           }`}
         >

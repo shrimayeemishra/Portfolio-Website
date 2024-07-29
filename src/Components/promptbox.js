@@ -1,6 +1,4 @@
 import React from "react";
-import searchicon from "../assets/searchicon.png";
-import arrowicon from "../assets/arrowicon.png";
 
 const PromptBox = ({ p1, p2 }) => {
   return (

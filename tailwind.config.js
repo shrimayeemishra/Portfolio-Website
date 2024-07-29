@@ -17,6 +17,9 @@ module.exports = {
       colors: {
         customColor: "#f0f",
       },
+      fontFamily: {
+        poppins: ["Poppins", "sans-serif"], // Add Poppins font family
+      },
     },
   },
   variants: {

@@ -8,7 +8,7 @@ const ContactCard = () => {
   return (
     <>
       <div
-        className="contactcard bg-[#B9EDFF] rounded-2xl border-[1px] border-[#106396] flex flex-col
+        className="contactcard bg-[#B9EDFF] font-poppins rounded-2xl border-[1px] border-[#106396] flex flex-col
       md:w-2/3 md:mx-auto
       lg:w-3/5
       xl:w-1/2"

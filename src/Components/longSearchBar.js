@@ -8,7 +8,7 @@ const LongSearchBar = () => {
   return (
     <>
       <div
-        className="bg-white rounded-2xl w-3/5 h-6 mt-1 mx-auto mb-6 flex flex-row justify-between items-center 
+        className="bg-white font-poppins rounded-2xl w-3/5 h-6 mt-1 mx-auto mb-6 flex flex-row justify-between items-center 
       s:mt-2 
       md:mt-4 md:h-8 md:mx-0 md:ml-4
       lg:mt-5 lg:w-1/2 lg:ml-10
