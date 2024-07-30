@@ -17,13 +17,15 @@ const ContactCard = () => {
           Let's Connect
         </p>
         <p className="text-center text-base mt-2 md:text-xl md:my-1">
-          Name: Shrimayee Mishra
+          <span className="font-semibold">Name: </span>Shrimayee Mishra
         </p>
         <p className="text-center text-base md:text-xl md:my-1">
-          Address: Mumbai, Maharashtra, India
+          <span className="font-semibold">Address: </span>Mumbai, Maharashtra,
+          India
         </p>
         <p className="text-center text-base mb-2 md:text-xl md:my-1">
-          Gmail: shrimayeemishra934@gmail.com
+          <span className="font-semibold">Gmail: </span>
+          shrimayeemishra934@gmail.com
         </p>
 
         <div className="contactbuttons flex flex-row justify-center">

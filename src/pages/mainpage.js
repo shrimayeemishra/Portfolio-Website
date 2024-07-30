@@ -48,24 +48,26 @@ const MainPage = () => {
           <div className="aboutparaandimage font-poppins flex flex-col md:flex-row">
             <div className="aboutparagraph md:w-1/2">
               <p className="text-justify px-2 py-2 md:text-xl">
-                Hi there! I'm Shrimayee, a Computer Engineering student at SNDT
-                with a zest for creativity. When I'm not immersed in tech
-                projects, you can find me exploring my artistic side in various
-                ways, including painting, crocheting, and writing write-ups. I
-                also have a deep passion for music—whether I'm playing the piano
-                or singing, I'm always up for a jamming session.
+                Hello World! I'm Shrimayee, currently majoring in Computer
+                Engineering at SNDT, but let’s not pretend that’s my only
+                talent. When I’m not cracking code, you’ll find me diving into
+                painting, penning down some creative write-ups, or exploring a
+                range of other artistic pursuits. Oh, and did I mention my
+                passion for music? Whether I’m playing the piano or singing, I’m
+                always ready for a lively jam session.
               </p>
               <p className="text-justify px-2 py-2 md:text-xl">
-                In addition to my hobbies, I volunteer with Art of Living, where
-                I've had the fulfilling opportunity to contribute to various
-                social projects. This experience has been a significant part of
-                my personal growth, helping my personality truly blossom.
+                I also volunteer with Art of Living, where I've had the
+                rewarding experience of assisting in courses for teens and
+                children. It's been a wonderful way to grow, discover new
+                aspects of myself, and develop a bit more patience (a very
+                useful skill, as it turns out).
               </p>
               <p className="text-justify px-2 py-2 md:text-xl">
-                I’d love to connect and share my passions with you. Feel free to
-                drop me a text to chat about creative pursuits, dive into
-                technical discussions, or engage in some intellectual
-                conversations!
+                If you're up for diving into tech discussions, exploring
+                creative ideas, or simply having a good chat about life’s
+                quirks, I’d love to hear from you. Let’s connect, share a laugh,
+                and perhaps even spark the next big idea together!
               </p>
             </div>
             <div className="aboutimage md:w-2/5 md:my-auto md:mx-auto lg:w-3/5">

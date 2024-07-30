@@ -1,3 +1,19 @@
-# https://www.robotstxt.org/robotstxt.html
-User-agent: *
-Disallow:
+✨Hello everyone!
+
+Thank you for applying for the IIC UMIT core council interviews. We are pleased to inform you that the interviews will be conducted on 3rd August. Please ensure you are well-prepared❗
+For those who have yet to submit their resumes, the deadline for resume submission is 2nd August 2024, 11:59 PM.
+
+There are 2 rounds in the process-
+Round 1 - Resume Screening and Interview Round (Will be conducted on 2nd August)
+Round 2 - (Will be conducted on 3rd August)
+
+🔹The Google Meet link will be shared with you on the day of the interview itself. Make sure to join on time with a stable internet connection and a working microphone and camera.
+
+🔹Below is the sequence in which you will be called. Kindly remain active and follow the order.
+
+ Best of luck to everyone! 
+
+Warm regards,
+IIC UMIT council.
+
+
