@@ -78,7 +78,7 @@ const Navbar = () => {
           </motion.a>
           <motion.a
             className="p-2"
-            href="https://drive.google.com/file/d/1WP59Fdt8dzyDB86GsvNTGwDEUi8Roy9y/view?usp=sharing"
+            href="https://drive.google.com/file/d/1PYlKz39830S9zV_dqW2Ih2R8VhGDkWa5/view?usp=sharing"
             target="_blank"
             whileHover={{ scale: 1.1 }}
             transition={{ type: "spring", stiffness: 300 }}

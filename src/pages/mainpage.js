@@ -115,7 +115,7 @@ const MainPage = () => {
               paragraph="My portfolio website features interactive elements, and it reflects my technical skills and design capabilities. 
               Throughout the development, I focused on creating a consistent design, optimizing performance, 
               and ensuring responsive design, which significantly enhanced my front-end development and UI/UX design skills."
-              link="www.google.com"
+              link="https://shrimayee-mishra.vercel.app/"
             />
             <ProjectCardLink
               img={servicehub}
@@ -126,7 +126,7 @@ const MainPage = () => {
               making it easier to manage and delegate tasks around the house. With a focus on a seamless and intuitive interface, 
               Chakde Chores enhances convenience and reliability in managing household responsibilities.
               I worked closely with my teammates on developing the frontend, ensuring an engaging and efficient user experience."
-              link="www.google.com"
+              link=""
             />
             <ProjectCard
               img={solartracker}
