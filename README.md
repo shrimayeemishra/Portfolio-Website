@@ -1,7 +1,7 @@
 # My Portfolio Website
 This is my personal portfolio website where I showcase my projects, skills, and experiences. Built using React.js and Tailwind CSS.
 
-The website is deployed at shrimayee-mishra.vercel.app
+The website is deployed at https://shrimayee-mishra.vercel.app
 
 ## Tech Stack
 - **Design**: Figma
