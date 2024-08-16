@@ -1,5 +1,5 @@
 # My Portfolio Website
-This portfolio isn’t just a collection of my work—it’s a narrative of my journey. It’s designed to offer you a complete picture of who I am, both as a tech enthusiast and a creative individual. Whether you're here to explore my technical projects, appreciate my artistic endeavors, or connect on a more personal level, I hope you find something that resonates with you.
+This portfolio is a reflection of my journey, both in technology and creativity. It’s meant to provide a well-rounded view of my work and interests, allowing you to understand who I am beyond the surface. I hope you find something here that resonates with you.
 
 The website is deployed at https://shrimayee-mishra.vercel.app
 
