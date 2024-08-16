@@ -1,7 +1,14 @@
 import React, { useEffect, useRef } from "react";
 import { motion, useAnimation } from "framer-motion";
 
-const ProjectCardLink = ({ img, title, link, techstack, paragraph }) => {
+const ProjectCardLink = ({
+  img,
+  title,
+  link1,
+  link2,
+  techstack,
+  paragraph,
+}) => {
   const controls = useAnimation();
   const cardRef = useRef();
 
@@ -63,12 +70,20 @@ const ProjectCardLink = ({ img, title, link, techstack, paragraph }) => {
         </span>
         {techstack}
       </p>
-      <p className="font-medium font-poppins text-[#000000] ml-4 mt-1 mb-3 text-base">
+      <p className="font-medium font-poppins text-[#000000] ml-4 mt-1 text-base">
         <span className="font-bold font-serif text-[#106396] text-xl">
           Link:{" "}
         </span>
-        <a href={link} className="underline underline-offset-4">
-          {link}
+        <a href={link1} className="underline underline-offset-4">
+          {link1}
+        </a>
+      </p>
+      <p className="font-medium font-poppins text-[#000000] ml-4 mt-1 mb-3 text-base">
+        <span className="font-bold font-serif text-[#106396] text-xl">
+          Github:{" "}
+        </span>
+        <a href={link2} className="underline underline-offset-4">
+          {link2}
         </a>
       </p>
       <p className="font-medium font-poppins text-[#000000] ml-4 mt-1 mb-3 text-lg text-justify px-4 pl-0">
