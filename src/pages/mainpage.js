@@ -26,13 +26,16 @@ const MainPage = () => {
 
   useEffect(() => {
     if (hash) {
-      const section = document.querySelector(hash);
-      if (section) {
-        section.scrollIntoView({ behavior: "smooth" });
-      }
+      const timeoutId = setTimeout(() => {
+        const section = document.querySelector(hash);
+        if (section) {
+          section.scrollIntoView({ behavior: "smooth" });
+        }
+      }, 100);
+
+      return () => clearTimeout(timeoutId);
     }
   }, [hash]);
-
   return (
     <>
       <Navbar />
