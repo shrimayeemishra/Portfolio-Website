@@ -1,5 +1,5 @@
 # My Portfolio Website
-This is my personal portfolio website where I showcase my projects, skills, and experiences. Built using React.js and Tailwind CSS.
+This portfolio isn’t just a collection of my work—it’s a narrative of my journey. It’s designed to offer you a complete picture of who I am, both as a tech enthusiast and a creative individual. Whether you're here to explore my technical projects, appreciate my artistic endeavors, or connect on a more personal level, I hope you find something that resonates with you.
 
 The website is deployed at https://shrimayee-mishra.vercel.app
 
