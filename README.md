@@ -27,3 +27,12 @@ To run this project locally follow the below steps on terminal:
 **4. Start the development server-**
 
    npm run start
+
+## Contact
+
+If you'd like to get in touch, whether it's for a potential project, collaboration, or just to say hello, feel free to reach out!
+
+- **Email**: mailto:shrimayeemishra934@gmail.com
+- **LinkedIn**: [www.linkedin.com/in/shrimayee-mishra](https://www.linkedin.com/in/shrimayee-mishra/)
+
+I look forward to connecting with you!
