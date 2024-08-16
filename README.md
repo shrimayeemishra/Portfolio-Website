@@ -17,12 +17,12 @@ To run this project locally follow the below steps on terminal:
 
 2. Navigate to the project directory-
 
-cd Portfolio-Website
+   cd Portfolio-Website
 
 3. Install dependencies-
 
-npm install
+   npm install
 
 4. Start the development server-
 
-npm run start
+   npm run start
