@@ -13,7 +13,7 @@
         margin: 0;
         padding: 0;
         height: 100%;
-        overflow: hidden;
+        overflow: hidden; /* Hide overflow initially to prevent scrolling */
       }
 
       .loader {
@@ -38,6 +38,7 @@
         margin-bottom: 1rem;
       }
 
+      /* Main content */
       #root {
         display: none;
       }
@@ -46,6 +47,7 @@
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root">
+      <!-- Main content of your portfolio -->
     </div>
     <div class="loader" id="loading-screen">
       <p>Almost there! We’re aligning the final touches for you!</p>
@@ -57,9 +59,14 @@
           const loadingScreen = document.getElementById('loading-screen');
           const root = document.getElementById('root');
           
+          // Hide loading screen and show main content
           loadingScreen.style.display = 'none';
           root.style.display = 'block';
-        }, 2000);
+          
+          // Allow scrolling once the main content is visible
+          document.body.style.overflow = 'auto';
+          document.documentElement.style.overflow = 'auto';
+        }, 3000); // Adjust the delay as needed
       });
     </script>
   </body>
