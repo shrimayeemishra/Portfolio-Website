@@ -20,7 +20,7 @@ const ContactCard = () => {
           <span className="font-semibold">Name: </span>Shrimayee Mishra
         </p>
         <p className="text-center text-base md:text-xl md:my-1">
-          <span className="font-semibold">Address: </span>Mumbai, Maharashtra,
+          <span className="font-semibold">Address: </span>Thane, Maharashtra,
           India
         </p>
         <p className="text-center text-base mb-2 md:text-xl md:my-1">
