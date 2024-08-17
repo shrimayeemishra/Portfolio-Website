@@ -74,7 +74,11 @@ const ProjectCardLink = ({
         <span className="font-bold font-serif text-[#106396] text-xl">
           Link:{" "}
         </span>
-        <a href={link1} className="underline underline-offset-4">
+        <a
+          href={link1}
+          target="_blank"
+          className="underline underline-offset-4"
+        >
           {link1}
         </a>
       </p>
@@ -82,7 +86,11 @@ const ProjectCardLink = ({
         <span className="font-bold font-serif text-[#106396] text-xl">
           Github:{" "}
         </span>
-        <a href={link2} className="underline underline-offset-4">
+        <a
+          href={link2}
+          target="_blank"
+          className="underline underline-offset-4"
+        >
           {link2}
         </a>
       </p>
