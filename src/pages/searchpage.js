@@ -35,7 +35,7 @@ const SearchPage = () => {
         <Link to="/main#education">
           <PromptBox
             p1="What is Shrimayee Mishra’s Education Qualifications?"
-            p2="Shrimayee's educational journey from a Diploma in Electronics Engineering to a Bachelor’s in Computer Engineering has 
+            p2="Shrimayee's educational journey from a Diploma in Electronics Engineering(VJTI, Mumbai) to a Bachelor’s in Computer Engineering(SNDT) has 
             equipped her with a robust foundation in both hardware and software domains. This diverse background allows to approach problems 
             with a holistic perspective, blending insights from both fields to drive innovative solutions."
           />
