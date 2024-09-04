@@ -4,9 +4,9 @@ import { motion, useAnimation } from "framer-motion";
 const ProjectCardLink = ({
   img,
   title,
+  techstack,
   link1,
   link2,
-  techstack,
   paragraph,
 }) => {
   const controls = useAnimation();
@@ -70,31 +70,19 @@ const ProjectCardLink = ({
         </span>
         {techstack}
       </p>
-      <p className="font-medium font-poppins text-[#000000] ml-4 mt-1 text-base">
-        <span className="font-bold font-serif text-[#106396] text-xl">
-          Link:{" "}
-        </span>
-        <a
-          href={link1}
-          target="_blank"
-          className="underline underline-offset-4"
-        >
-          {link1}
+      <div className="flex flex-col space-y-4 ml-4 mr-4 mt-3 md:flex-row md:space-y-0 md:space-x-4 md:justify-start">
+        <a href={link1} target="_blank" rel="noopener noreferrer">
+          <button className="bg-[#106396] text-white font-bold py-2 px-4 rounded-lg shadow-lg hover:bg-[#0c4a73] focus:outline-none transition duration-300 ease-in-out w-full md:w-auto">
+            Visit Project
+          </button>
         </a>
-      </p>
-      <p className="font-medium font-poppins text-[#000000] ml-4 mt-1 mb-3 text-base">
-        <span className="font-bold font-serif text-[#106396] text-xl">
-          Github:{" "}
-        </span>
-        <a
-          href={link2}
-          target="_blank"
-          className="underline underline-offset-4"
-        >
-          {link2}
+        <a href={link2} target="_blank" rel="noopener noreferrer">
+          <button className="bg-[#106396] text-white font-bold py-2 px-4 rounded-lg shadow-lg hover:bg-[#0c4a73] focus:outline-none transition duration-300 ease-in-out w-full md:w-auto">
+            View GitHub
+          </button>
         </a>
-      </p>
-      <p className="font-medium font-poppins text-[#000000] ml-4 mt-1 mb-3 text-lg text-justify px-4 pl-0">
+      </div>
+      <p className="font-medium font-poppins text-[#000000] ml-4 mt-4 mb-3 text-lg text-justify px-4 pl-0">
         {paragraph}
       </p>
     </motion.div>
